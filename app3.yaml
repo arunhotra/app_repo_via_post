@@ -1,0 +1,15 @@
+app3:
+  app_name: app3
+  tenant: tenant12345
+  app_template: template_as3_web_app
+  server_port: 8080
+  app_fqdn: app3.example1.com
+  app_locations:
+    datacenter_name: virtual_DataCenter
+    prod_vip_address: 1.1.1.1
+    alternate_vip_address: 2.2.2.2
+    pool_members:
+      - ip: 192.168.1.3
+        state: enable
+      - ip: 192.168.1.4
+        state: disable
