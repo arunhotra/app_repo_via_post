@@ -10,6 +10,6 @@ app2:
     alternate_vip_address: 2.2.2.2
     pool_members:
       - ip: 192.168.1.1
-        state: enable
+        state: disable
       - ip: 192.168.1.2
         state: enable
