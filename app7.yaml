@@ -9,7 +9,7 @@ app7:
     prod_vip_address: 1.1.7.1
     alternate_vip_address: 2.2.7.1
     pool_members:
-      - ip: 192.168.7.1
+      - ip: 192.168.7.51
         state: enable
-      - ip: 192.168.7.2
-        state: disable
+      - ip: 192.168.7.52
+        state: enable
